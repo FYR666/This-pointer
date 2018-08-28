@@ -5,7 +5,7 @@ public:
 	~Array();
 	void setLen(int len);
 	int getLen();
-	void printInfo();
+	Array& printInfo();
 private:
 	int len;
 };

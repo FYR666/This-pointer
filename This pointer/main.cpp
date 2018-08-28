@@ -6,7 +6,8 @@ using namespace std;
 int main(void)
 {
 	Array arr1(10);
-	cout << arr1.getLen() << endl;
+	arr1.printInfo().setLen(5);
+	cout << "len=" << arr1.getLen() << endl;
 	system("pause");
 	return 0;
 }

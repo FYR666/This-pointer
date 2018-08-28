@@ -23,7 +23,8 @@ int Array::getLen()
 	return len;
 }
 
-void Array::printInfo()
+Array& Array::printInfo()
 {
-
+	cout << "len=" << len << endl;
+	return *this;
 }
